@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button fx:id="btn" layoutY="65.0" mnemonicParsing="false" onAction="#click" prefHeight="39.0" prefWidth="164.0" text="Choose File" />
+        <ListView fx:id="words" layoutX="164.0" layoutY="38.0" prefHeight="361.0" prefWidth="200.0" />
+        <ListView fx:id="frequency" layoutX="364.0" layoutY="38.0" prefHeight="361.0" prefWidth="200.0" />
+        <Label fx:id="label" layoutX="217.0" layoutY="11.0" prefHeight="27.0" prefWidth="151.0" text="Words" textFill="#510ecc" />
+        <Label fx:id="label2" layoutX="422.0" layoutY="11.0" text="Frequency" textFill="#5c10c6" textOverrun="CLIP" />
+      <Button fx:id="btn2" layoutX="-1.0" layoutY="123.0" mnemonicParsing="false" onAction="#press" prefHeight="56.0" prefWidth="164.0" text="Frequency" />
+    </children>
+</AnchorPane>
